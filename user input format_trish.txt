@@ -1,0 +1,18 @@
+DE-REGISTER#Name
+REGISTER#Name
+
+LOOKING_FOR#Name#Item_Name#Item_Description#Max_Price
+OFFER#RQ#Name#Item_Name#Price
+
+ACCEPT#RQ##Item_Name#Max_Price
+REFUSE#RQ#Item_Name#Max_Price
+
+CANCEL#RQ#Item_Name#Price
+BUY#RQ#Item_Name#Price
+
+INFORM_Res#RQ#Name#CC#CC Exp_Date#Address
+*********************************************************************************
+REGISTER#Trish
+LOOKING_FOR#Trish#apple#Item_Description#20
+OFFER#SERVER-52#Trish#pc#200
+OFFER#SERVER-48#Trish#A1#50

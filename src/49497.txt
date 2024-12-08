@@ -1,0 +1,36 @@
+[2024-12-03 10:48:21] [Input Command] REGISTER#A
+[2024-12-03 10:48:21] [Executed UDP Command:] REGISTER#1#A#132.205.94.175#49497#51263 to ('132.205.94.178', 8888)
+[2024-12-03 10:48:22] [Receive[UDP]] REGISTERED#1#User_Registered from ('132.205.94.178', 8888)
+[2024-12-03 10:51:40] [Receive[UDP]] SEARCH#SERVER-1#IPAD#YELLOW from ('132.205.94.178', 8888)
+[2024-12-03 10:54:32] [Input Command] LOOKING_FOR#A#IPHONE#Item_Description#600
+[2024-12-03 10:54:32] [Executed UDP Command:] LOOKING_FOR#2#A#IPHONE#Item_Description#600.0 to ('132.205.94.178', 8888)
+[2024-12-03 10:55:43] [Receive[UDP]] FOUND#2#IPHONE#450.0 from ('132.205.94.178', 8888)
+[2024-12-03 10:56:20] [Input Command] BUY#2#IPHONE#450
+[2024-12-03 10:56:20] [Executed UDP Command:] BUY#2#IPHONE#450.0 to ('132.205.94.178', 8888)
+[2024-12-03 10:56:20] [Receive[UDP]] TCP_establish#<util.User object at 0x0000020A21D513D0>#('132.205.94.175', 51263) from ('132.205.94.178', 8888)
+[2024-12-03 10:56:20] [TCP[Connection] Connection established with ('132.205.94.178', 63112)
+[2024-12-03 10:56:21] [Receive[TCP]] INFORM_Req#SERVER-3#IPHONE#450.0 from ('132.205.94.178', 63112)
+[2024-12-03 10:57:19] [Input Command] INFORM_Res#SERVER-3#A#111#CCExp_Date#Address-A
+[2024-12-03 10:57:19] [Executed TCP Command:] INFORM_Res#SERVER-3#A#111#CCExp_Date#Address-A to server
+[2024-12-03 10:57:38] [Receive[TCP]] Credit_Card_Info#SERVER-3#A#credit amount:405.0 transaction fee:45.0 from ('132.205.94.178', 63112)
+[2024-12-03 10:57:38] [Connection [closed]] Connection closed by ('132.205.94.178', 63112)
+[2024-12-03 10:58:51] [Receive[UDP]] SEARCH#SERVER-4#MACBOOKPRO#YELLOW from ('132.205.94.178', 8888)
+[2024-12-03 11:06:32] [Receive[UDP]] SEARCH#SERVER-6#BMW#YELLOW from ('132.205.94.178', 8888)
+[2024-12-03 11:07:23] [Input Command] OFFER#SERVER-6#A#BMW#3200
+[2024-12-03 11:07:23] [Executed UDP Command:] OFFER#SERVER-6#A#BMW#3200.0 to ('132.205.94.178', 8888)
+[2024-12-03 11:08:32] [Receive[UDP]] RESERVE#SERVER-6#BMW#3200.0 from ('132.205.94.178', 8888)
+[2024-12-03 11:09:20] [Receive[UDP]] TCP_establish#<util.User object at 0x0000020449344760>#('132.205.94.175', 51263) from ('132.205.94.178', 8888)
+[2024-12-03 11:09:21] [TCP[Connection] Connection established with ('132.205.94.178', 52917)
+[2024-12-03 11:09:21] [Receive[TCP]] INFORM_Req#SERVER-7#BMW#3200.0 from ('132.205.94.178', 52917)
+[2024-12-03 11:09:48] [Input Command] INFORM_Res#SERVER-7#A#123#CCExp_Date#Address_A
+[2024-12-03 11:09:48] [Executed TCP Command:] INFORM_Res#SERVER-7#A#123#CCExp_Date#Address_A to server
+[2024-12-03 11:09:57] [Receive[TCP]] Shipping_Info#SERVER-7#D#ADRESS_D from ('132.205.94.178', 52917)
+[2024-12-03 11:11:12] [Input Command] LOOKING_FOR#A#Iphone#Item_Description#5
+[2024-12-03 11:11:12] [Executed UDP Command:] LOOKING_FOR#3#A#Iphone#Item_Description#5.0 to ('132.205.94.178', 8888)
+[2024-12-03 11:13:12] [Receive[UDP]] FOUND#3#Iphone#2.0 from ('132.205.94.178', 8888)
+[2024-12-03 11:13:31] [Input Command] CANCEL#3#Iphone#2
+[2024-12-03 11:13:31] [Executed UDP Command:] CANCEL#3#Iphone#2.0 to ('132.205.94.178', 8888)
+[2024-12-03 11:15:39] [Input Command] LOOKING_FOR#A#coen66#Item_Description#2000
+[2024-12-03 11:15:39] [Executed UDP Command:] LOOKING_FOR#4#A#coen66#Item_Description#2000.0 to ('132.205.94.178', 8888)
+[2024-12-03 11:15:44] [Receive[UDP]] SEARCH#SERVER-10#COEN#MIDTERM from ('132.205.94.178', 8888)
+[2024-12-03 11:16:08] [Receive[UDP]] SEARCH#SERVER-11#TOY#Item_Description from ('132.205.94.178', 8888)
